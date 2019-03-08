@@ -1,6 +1,15 @@
 /* global NexT: true */
 
 $(document).ready(function () {
+  
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?a2c1b114c831e01595f5ba55a2daef0a";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+  
   NexT.motion = {};
 
   var sidebarToggleLines = {
